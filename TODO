@@ -2,8 +2,7 @@
     - Parameter verification
     - Parameter adding -b -o -h
     - Manual
-    - C & C++ versions
-    - Script and Batch (S&B) to multiple files
+    - C versions
     - Tools
         -Dissasembler
         -Decompiler
