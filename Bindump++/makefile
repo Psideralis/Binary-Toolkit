@@ -1,11 +1,11 @@
 
-ALL: BUILD RUN CLEAN
+ALL: BUILD RUN
 
 BUILD:
-	g++ main.cpp -I ./headers -o bindump++
+	g++ bindump.cpp -I ./headers -o ./bin/bindump++2
 
 RUN:
-	./bindump++
+	./bin/bindump++2 ./bin/inkscape.exe bindump.txt
 
 CLEAN:
 	rm ./bindump++
