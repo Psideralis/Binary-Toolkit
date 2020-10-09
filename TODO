@@ -1,7 +1,7 @@
     - CMAKE: compilation and (un)installation.
     - Parameter verification
     - Parameter adding -b -o -h -a -u
-    - C version 0.0.01
+    - C version
     - Tools: unimplemented
         -Dissasembler
         -Decompiler

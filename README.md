@@ -1,9 +1,13 @@
 # Binary-Reader
-
 ## Author: 
 Psideralis<br/>
 ## License: 
-GNU GPL<br/>
+GNU General Public License 3.0<br/>
+## Status:
+Public<br/>
+## Version
+00.00.000.001<br/>
+Mayor.Minor.Revision.Daily<br/>
 ## Description:
 Reads any file and ouput to file its binary (octal,hex,ascii) dump.<br/>
 
@@ -18,7 +22,7 @@ Linux requirements:<br/>
   - make <br/>
   - cmake <br/>
 ## Versions:<br/>
-  ### Python : pydump  0.0.01<br/>
+  ### Python : pydump  00.00.000.001<br/>
     Manual:
       Description:
       Parameters:
@@ -27,7 +31,7 @@ Linux requirements:<br/>
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
         -u: output UTF-8 format. Can be used with -b, -o or -h.
-  ### C++     : bindump++   0.0.01<br/>
+  ### C++     : bindump++   00.00.000.001<br/>
     Manual:
       Description:
       Parameters:
@@ -36,15 +40,15 @@ Linux requirements:<br/>
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
         -u: output UTF-8 format. Can be used with -b, -o or -h.
-  ### C       : bindump     0.0.01<br/>
-    Manual:<br/>
-      Description:<br/>
-      Parameters:<br/>
-        -b: output binary format.<br/>
-        -o: output octal format.<br/>
-        -h: ouptut hexadecimal format.<br/>
-        -a: output ASCII format. Can be used with -b, -o or -h.<br/>
-        -u: output UTF-8 format. Can be used with -b, -o or -h.<br/>
+  ### C       : bindump     00.00.000.001<br/>
+    Manual:
+      Description:
+      Parameters:
+        -b: output binary format.
+        -o: output octal format.
+        -h: ouptut hexadecimal format.
+        -a: output ASCII format. Can be used with -b, -o or -h.
+        -u: output UTF-8 format. Can be used with -b, -o or -h.
 ## Output file format:
   ### HEADER:<br/>
     Output filename: "Filename"
@@ -73,7 +77,7 @@ Linux requirements:<br/>
     C       : make
 ## Installation:<br/>
   ### WINDOWS:
-    PATH = "%HOME%/AppData/Bindump/"
+    PATH = "%HOME%/UserPrograms/Bindump/"
     Python,C,C++  : ./Script/install.bat
   ### LINUX:
     PATH = "/usr/bin/Bindump"
@@ -88,14 +92,14 @@ Linux requirements:<br/>
   #### Tries to output assembly code from binary file. <br/>
     Author: Psideralis
     License: GNU GPL
-    Versions: 0.0.01
+    Versions: 00.00.000.001
   ### Decompiler: 
   #### Tries to output C or C++ code from binary file or assembly file. <br/>
     Author: Psideralis
     License: GNU GPL
-    Versions: 0.0.01
+    Versions: 00.00.000.001
   ### Disinterpreter: 
   #### Tries to output Python code from C++ file. <br/>
     Author: Psideralis
     License: GNU GPL
-    Versions: 0.0.01
+    Versions: 00.00.000.001
