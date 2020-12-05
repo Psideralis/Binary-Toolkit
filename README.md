@@ -4,9 +4,9 @@ Psideralis<br/>
 ## License: 
 GNU General Public License 3.0<br/>
 ## Status:
-Private<br/>
+Public - Unfinished<br/>
 ## Version
-00.00.000.001<br/>
+00.00.000.002<br/>
 Mayor.Minor.Revision.Daily<br/>
 ## Description:
 Reads any file and ouput to file its binary (octal,hex,ascii) dump.<br/>
@@ -21,6 +21,7 @@ Linux requirements:<br/>
   - g++<br/>
   - make <br/>
   - cmake <br/>
+
 ## Versions:<br/>
   ### Python : pydump  00.00.000.001<br/>
     Manual:
@@ -92,14 +93,17 @@ Linux requirements:<br/>
   #### Tries to output assembly code from binary file. <br/>
     Author: Psideralis
     License: GNU GPL
+    Status: Unfinished
     Versions: 00.00.000.001
   ### Decompiler: 
   #### Tries to output C or C++ code from binary file or assembly file. <br/>
     Author: Psideralis
     License: GNU GPL
+    Status: Unfinished
     Versions: 00.00.000.001
   ### Disinterpreter: 
   #### Tries to output Python code from C++ file. <br/>
     Author: Psideralis
     License: GNU GPL
+    Status: Unfinished
     Versions: 00.00.000.001

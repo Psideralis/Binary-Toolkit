@@ -3,13 +3,12 @@
 
 __author__ = "Psideralis"
 __copyright__ = "Copyright 2020, Psideralis"
-__credits__ = ["Psideralis","Daniel Zamora"]
-__license__ = "GPL"
-__version__ = "0.0.01"
-__maintainer__ = "Daniel Zamora"
+__credits__ = ["Psideralis"]
+__license__ = "GPL 3.0"
+__version__ = " 00.00.000.001"
+__maintainer__ = "Psideralis"
 __email__ = "psideralis@gmail.com"
 __status__ = "Development"
-
 
 import sys
 

@@ -1,11 +1,11 @@
-
+	
 ALL: BUILD RUN
 
 BUILD:
-	gcc main.c -I ./headers -o ./bin/bindump
+	gcc cdump.c -I ./headers -o ./bin/cdump
 
 RUN:
-	./bin/bindump testfile.txt
+	./bin/cdump ./test/testfile.txt
 
 CLEAN:
-	rm ./bindump
+	rm ./bin/cdump

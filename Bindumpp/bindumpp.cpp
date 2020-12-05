@@ -1,3 +1,25 @@
+/* *********************************************
+Author: Psideralis
+License: GNU GPL 3.0
+File name: bindumpp.cpp
+Description:
+********************************************* */ 
+
+/* *********************************************
+DEFINES:
+
+MACROS:
+
+STRUCTS:
+
+ENUMS:
+
+TYPES:
+
+CLASSES:
+
+********************************************* */ 
+
 #include <iomanip>
 #include <iostream>
 #include <fstream>

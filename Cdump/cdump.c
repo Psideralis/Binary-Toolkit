@@ -1,3 +1,25 @@
+/* *********************************************
+Author: Psideralis
+License: GNU GPL 3.0
+File name: cdump.c
+Description:
+********************************************* */ 
+
+/* *********************************************
+DEFINES:
+
+MACROS:
+
+STRUCTS:
+
+ENUMS:
+
+TYPES:
+
+CLASSES:
+
+********************************************* */ 
+
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>

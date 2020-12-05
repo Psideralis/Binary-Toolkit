@@ -4,10 +4,12 @@ echo Installing
 #CREATE DIRECTORIES
 mkdir /usr/bin/Bindump
 #COPY FILES
-copy . /usr/bin/Bindump
+copy ../Bindumpp/bin /usr/bin/Bindump
+copy ../Cdumpp/bin /usr/bin/Bindump
+copy ../Pydumpp/bin /usr/bin/Bindump
 #CONFIRM
-whereis bindump
-whereis bindump++
+whereis bindumpp
+whereis cdump
 whereis pydump
 #SET ENVIROMENT VARIABLES
 export PATH = /usr/bin/Bindump/Cdump/bin

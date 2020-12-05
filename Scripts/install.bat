@@ -1,15 +1,17 @@
 :: INSTALL BATCH
 echo Installing
 :: CREATE DIRECTORIES
-md %HOME%/AppData/Bindump
+md %HOME%\AppData/Local/Programs\Bindump
 :: COPY FILES
-copy . %HOME%/AppData/Bindump
+copy ..\Bindumpp\bin %HOME%\AppData\LocalPrograms\Bindump
+copy ..\Cdump\bin %HOME%\AppData\LocalPrograms\Bindump
+copy ..\Pydump\bin %HOME%\AppData\LocalPrograms\Bindump
 :: CONFIRM
-where bindump
-where bindump++
+where cdump
+where bindumpp
 where pydump
 :: SET ENVIROMENT VARIABLES
-set %PATH%="%HOME%/AppData/Bindump/Bindump/Cdump/bin"
-set %PATH%="%HOME%/AppData/Bindump/Bindump/Bindump/bin"
-set %PATH%="%HOME%/AppData/Bindump/Bindump/Pydump/bin"
+set %PATH%="%HOME%\AppData\Local\Programs\Bindump\Cdump\bin"
+set %PATH%="%HOME%\AppData\Local\Programs\Bindump\Bindumpp\bin"
+set %PATH%="%HOME%\AppData\Local\Programs\Bindump\Pydump\bin"
 :: TEST
