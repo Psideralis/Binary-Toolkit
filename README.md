@@ -70,15 +70,15 @@ Linux requirements:<br/>
 ## Compilation:<br/>
   ### WINDOWS:<br/>
     Python  : No compilation!
-    C++     : nmake
-    C       : nmake
+    C++     : nmake or cmake
+    C       : nmake or cmake
   ### LINUX:<br/>
     Python  : No compilation!
-    C++     : make
-    C       : make
+    C++     : make or cmake
+    C       : make or cmake
 ## Installation:<br/>
   ### WINDOWS:
-    PATH = "%HOME%/UserPrograms/Bindump/"
+    PATH = ""%HOME%\AppData\LocalPrograms\Bindump"
     Python,C,C++  : ./Script/install.bat
   ### LINUX:
     PATH = "/usr/bin/Bindump"
