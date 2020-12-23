@@ -4,7 +4,7 @@ Psideralis<br/>
 ## License: 
 GNU General Public License 3.0<br/>
 ## Status:
-Public - Unfinished<br/>
+Public - Progress: 15%<br/>
 ## Version
 00.00.000.002<br/>
 Mayor.Minor.Revision.Daily<br/>
