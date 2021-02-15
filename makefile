@@ -1,16 +1,16 @@
 ALL: $(task)
 
 BUILD_WIN: 
-	@cl $(file) $(file).cpp /I ./headers /o ./bin/$(file) 
+	@cl ./$(directory$(file).cpp /I ./$(directory/headers /o ./$(directory/bin/$(file) 
 
 BUILD_LINUX: 
-	@gcc $(file) $(file).cpp -I ./headers -o ./bin/$(file) 
+	@gcc ./$(directory$(file).cpp -I ./$(directory/headers -o ./$(directory/bin/$(file) 
 
 RUN_WIN:
-	./bin/$(file)
+	./$(directory)/bin/$(file)
 
 RUN_LINUX:
-	./bin/$(file)
+	./$(directory/bin/$(file)
 
 CLEAN_WIN: 
 	@del $(file).exe $(file).obj

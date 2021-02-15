@@ -1,20 +1,28 @@
-Entry 04/07/2020
+Daily:
+Entry 001: 04/07/2020, 002:05/12/2020,
+    Finish:
+        - Pydump, Cdump, Bindumpp skeleton, formatting and README.md
+        - Directories skeleton, formatting
+
+Nigthly:  
+Entry 001: 14/02/2021
     Pendant:
-        - Pydump skeleton, formatting and version
-        - Batch: (un)installation
-        - Parameter verification
-        - Parameter adding -b -o -h -a -u
-    Optional (?):
-        - Tools:
-            -Dissasembler
-            -Decompiler
-            -Disinterpreter
-    
-Entry 05/12/2020
-    Pendant:
-        - C skeleton, formatting
-        - C++ skeleton, formatting
-        - Parameter verification
-        - Parameter adding -b -o -h -a -u
+        - Cdump     00.00.001.001
+        - Bindumpp  00.00.001.001
+        - Pydump    00.00.001.001
+        - Batch: (un)installation: Linux, MacOS, Windows
         - CMAKE: compilation and (un)installation.
-        
+        - Parameter verification
+        - Parameter adding -b -o -h -a -u
+
+Minor:
+    Pendant:
+
+Mayor:
+    Pendant:
+    
+    Optional (?):
+    - Tools:
+        -Dissasembler
+        -Decompiler
+        -Disinterpreter
