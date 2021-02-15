@@ -2,7 +2,7 @@
 ## Author: 
 Psideralis<br/>
 ## License: 
-GNU General Public License 3.0 & Psideralis Commune License<br/>
+GNU General Public License 3.0 & Psideralis Commune Privative License<br/>
 ## Status:
 Public - Progress: 35%<br/>
 ## Version
