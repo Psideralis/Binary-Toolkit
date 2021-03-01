@@ -1,18 +1,14 @@
 #! /usr/bin
 #INSTALL BATCH
-echo Installing
-#CREATE DIRECTORIES
-mkdir /usr/bin/Bindump
+echo "Innstalling in /urs/bin"
 #COPY FILES
-copy ../Bindumpp/bin /usr/bin/Bindump
-copy ../Cdumpp/bin /usr/bin/Bindump
-copy ../Pydumpp/bin /usr/bin/Bindump
+copy ../Bindumpp/bin /usr/bin
+copy ../Cdumpp/bin /usr/bin
+copy ../Pydumpp/bin /usr/bin
 #CONFIRM
+echo "Search for bindumpp"
 whereis bindumpp
+echo "Search for cdump"
 whereis cdump
+echo "Search for pyumpp"
 whereis pydump
-#SET ENVIROMENT VARIABLES
-export PATH = /usr/bin/Bindump/Cdump/bin
-export PATH = /usr/bin/Bindump/Bindump/bin
-export PATH = /usr/bin/Bindump/Pydump/bin
-#TEST

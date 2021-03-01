@@ -1,11 +1,11 @@
 	
-ALL: BUILD_WIN RUN_WIN CLEAN_WIN
+ALL: BUILD_LINUX RUN_LINUX
 
 BUILD_WIN: 
-	@cl ./(file).c /I ./$(directory/headers /o ./$(directory/bin/cdump.exe
+	@cl ./cdump.c /I ./headers /o ./bin/cdump.exe
 
 BUILD_LINUX: 
-	@gCC ./(file).c -I ./$(directory/headers -o ./$(directory/bin/cdump
+	@gcc ./cdump.c -I ./headers -o ./bin/cdump
 
 RUN_WIN:
 	./bin/cdump.exe $(file) $(parameters)

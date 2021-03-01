@@ -3,6 +3,9 @@
         "stdio.h": "c",
         "xstring": "cpp",
         "fstream": "cpp",
-        "iomanip": "cpp"
+        "iomanip": "cpp",
+        "initializer_list": "c",
+        "xiosbase": "c",
+        "xutility": "c"
     }
 }

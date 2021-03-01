@@ -8,28 +8,15 @@ Public - Progress: 35%<br/>
 ## Version
 00.00.001.001<br/>
 ## Description:
-Reads any file and ouput to file its binary (octal,hex,ascii) dump.<br/>
-
-Windows requirments:<br/>
-  - python<br/>
-  - cl <br/>
-  - nmake <br/>
-  - cmake <br/>
-
-Linux requirements:<br/>
-  - python<br/>
-  - gcc<br/>
-  - g++<br/>
-  - make <br/>
-  - cmake <br/>
+Reads any file and ouput to file its binary (octal,hex,ascii,utf) dump.<br/>
 
 ## Versions:<br/>
   ### Python : pydump  00.00.001.001<br/>
     Manual:
 
       Description:
-        pydump.py [file] [parameters]
-        output:
+        pydump.py [file] [parameters] -out:[filename]
+        output: ./file.dmp or ./[filename]
       Parameters:
         -b: output binary format.
         -o: output octal format.
@@ -40,26 +27,27 @@ Linux requirements:<br/>
     Manual:
     
       Description:
-        cdump [file] [parameters]
-        output:
+        cdump [file] [parameters] -out:[filename]
+        output: ./file.dmp or ./[filename]
       Parameters:
         -b: output binary format.
         -o: output octal format.
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
         -u: output UTF-8 format. Can be used with -b, -o or -h.
-  ### C       : bindump     00.00.001.001<br/>
+  ### C       : cdump     00.00.001.001<br/>
     Manual:
     
       Description:
-        bindumpp [file] [parameters]
-        output:
+        bindumpp [file] [parameters] -out:[filename]
+        output: ./file.dmp or ./[filename]
       Parameters:
         -b: output binary format.
         -o: output octal format.
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
         -u: output UTF-8 format. Can be used with -b, -o or -h.
+
 ## Output file format:
   ### HEADER:<br/>
     Output filename: "Filename"
@@ -77,6 +65,26 @@ Linux requirements:<br/>
     Read time: "Read time"
     Speed: "Read speed"
     File format: "Tries to output file format"
+
+## Requirements:<br/>
+  ### WINDOWS:<br/>
+    - python
+    - cl 
+    - nmake 
+    - cmake 
+  ### LINUX:<br/>
+    - python
+    - gcc
+    - g++
+    - make 
+    - cmake 
+  ### MAC:<br/>
+    - python
+    - gcc
+    - g++
+    - make 
+    - cmake 
+
 ## Compilation:<br/>
   ### WINDOWS:<br/>
     Python  : No compilation!
@@ -86,42 +94,58 @@ Linux requirements:<br/>
     Python  : No compilation!
     C++     : make or cmake
     C       : make or cmake
+  ### MAC:<br/>
+    Python  : No compilation!
+    C++     : make or cmake
+    C       : make or cmake
 ## Installation:<br/>
   ### WINDOWS:
-    PATH = ""%HOME%\AppData\LocalPrograms\Bindump"
-    Python,C,C++  : ./Script/install.bat
+    PATH = ""%HOME%\BinaryReader"
+    Python,C,C++  : 
+      ./Script/install.bat
     OR
-    cmake install
+      nmake install
+    OR
+      mkdir build
+      cd build
+      cmake .. -DCMAKE_INSTALL_PREFIX=$(INSTALL PATH)
+      cmake --build . OR make
+      make install     
   ### LINUX:
-    PATH = "/usr/bin/Bindump"
+    PATH = "/usr/bin"
     Python,C,C++  : ./Script/install.sh
     OR
-    make install
+      make install
+    OR
+      mkdir build
+      cd build
+      cmake .. -DCMAKE_INSTALL_PREFIX=$(INSTALL PATH)
+      cmake --build . OR make
+      make install     
+  ### MAC:
+    PATH = "/usr/bin"
+    Python,C,C++  : ./Script/install.sh
+    OR
+      make install
+    OR
+      mkdir build
+      cd build
+      cmake .. -DCMAKE_INSTALL_PREFIX=$(INSTALL PATH)
+      cmake --build . OR make
+      make install     
 ## Uninstallation:<br/>
-  ### WINDOWS:<br/>
-    Python,C,C++  : ./Script/uninstall.bat
+  ### WINDOWS:
+    Python,C,C++  :
+      ./Script/uninstall.bat
     OR
-    cmake uninstall
-  ### LINUX:<br/>
-    Python,C,C++  : ./Script/uninstall.sh
+      make uninstall
+  ### LINUX:
+    Python,C,C++  : 
+      ./Script/uninstall.sh
     OR
-    make uninstall
-## Tools:<br/>
-  ### Disassembler: 
-  #### Tries to output assembly code from binary file. <br/>
-    Author: Psideralis
-    License: GNU GPL
-    Status: Unfinished
-    Versions: 00.00.000.001
-  ### Decompiler: 
-  #### Tries to output C or C++ code from binary file or assembly file. <br/>
-    Author: Psideralis
-    License: GNU GPL
-    Status: Unfinished
-    Versions: 00.00.000.001
-  ### Disinterpreter: 
-  #### Tries to output Python code from C or C++ file. <br/>
-    Author: Psideralis
-    License: GNU GPL
-    Status: Unfinished
-    Versions: 00.00.000.001
+      make uninstall
+  ### MAC:
+    Python,C,C++  : 
+      ./Script/uninstall.sh
+    OR
+      make uninstall

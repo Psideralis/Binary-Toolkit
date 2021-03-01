@@ -5,7 +5,7 @@ __author__ = "Psideralis"
 __copyright__ = "Copyright 2020, Psideralis"
 __credits__ = ["Psideralis"]
 __license__ = "GPL 3.0"
-__version__ = " 00.00.000.001"
+__version__ = " 00.00.001.001"
 __maintainer__ = "Psideralis"
 __email__ = "psideralis@gmail.com"
 __status__ = "Development"
@@ -48,4 +48,6 @@ if __name__ == "__main__":
     rfile = sys.argv[1]
     bindump(rfile)
 
-# ADD ASCII COLUMNS PARALLEL
+# ADD ASCII-UTF COLUMNS PARALLEL
+# PARAMETER VERIFICATION
+# MANUAL

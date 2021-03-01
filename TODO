@@ -1,5 +1,5 @@
 Daily:
-Entry 001: 04/07/2020, 002:05/12/2020,
+Entry 001: 04/07/2020, 002:05/12/2020
     Finish:
         - Pydump, Cdump, Bindumpp skeleton, formatting and README.md
         - Directories skeleton, formatting
@@ -10,10 +10,11 @@ Entry 001: 14/02/2021
         - Cdump     00.00.001.001
         - Bindumpp  00.00.001.001
         - Pydump    00.00.001.001
-        - Batch: (un)installation: Linux, MacOS, Windows
-        - CMAKE: compilation and (un)installation.
-        - Parameter verification
-        - Parameter adding -b -o -h -a -u
+        - Batch: (un)installation: Linux, MacOS, Windows    √
+        - make: (un)installation: Linux, MacOS, Windows     √
+        - CMAKE: compilation                                √
+        - Parameter verification                            PENDANT
+        - Parameter adding -b -o -h -a -u -out:[outputname]
 
 Minor:
     Pendant:
