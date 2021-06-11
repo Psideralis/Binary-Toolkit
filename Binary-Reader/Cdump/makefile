@@ -1,11 +1,32 @@
 	
-ALL: BUILD RUN
+ALL: BUILD_LINUX RUN_LINUX
 
-BUILD:
-	gcc cdump.c -I ./headers -o ./bin/cdump
+BUILD_WIN: 
+	@cl ./cdump.c /I ./headers /o ./bin/cdump.exe
 
-RUN:
-	./bin/cdump ./test/testfile.txt
+BUILD_LINUX: 
+	@gcc ./cdump.c -I ./headers -o ./bin/cdump
 
-CLEAN:
-	rm ./bin/cdump
+RUN_WIN:
+	./bin/cdump.exe $(file) $(parameters)
+
+RUN_LINUX:
+	./bin/cdump $(file) $(parameters)
+
+CLEAN_WIN: 
+	@del cdump.exe cdump.obj
+
+CLEAN_LINUX: 
+	@rm cdump
+
+INSTALL_WIN:
+
+
+INSTALL_LINUX:
+
+
+UNINSTALL_WIN:
+
+
+UNINSTALL_LINUX:
+

@@ -1,13 +1,11 @@
 :: UNINSTALL BATCH
-echo Uninstalling
-:: REMOVE ENVIROMENT VARIABLES
-set %PATH%="%HOME%\AppData\LocalPrograms\Bindump\Cdump\bin"
-set %PATH%="%HOME%\AppData\LocalPrograms\Bindump\Bindumpp\bin"
-set %PATH%="%HOME%\AppData\LocalPrograms\Bindump\Pydump\bin"
+echo "Unstalling from %HOME%"
 :: REMOVE DIRECTORIES
-rd %HOME%\AppData\LocalPrograms\Bindump
+rd \s %HOME%\BinaryReader
 :: CONFIRM
-where bindump
-where bindump++
+echo " Confirmation search for cdump"
+where cdump
+echo " Confirmation search for bindumpp"
+where bindumpp
+echo " Confirmation search for pydump"
 where pydump
-:: TEST

@@ -26,6 +26,7 @@ CLASSES:
 #include <string>
 #include <bitset>
 #include <cmath>
+
 int main(int argc, char** argv){
     /* LOAD FILE */
     std::ifstream myFile;
@@ -42,10 +43,8 @@ int main(int argc, char** argv){
         for (int i = 1; i < text.length()+1; i++){
             std::bitset<8> myBuffer (text[i-1]);
             std::cout << std::setw(0) << myBuffer << ' ';
-            if( i%32 == 0){
+            if( i%8 == 0){
                 std::cout << "\n";
-            }if( i%8 == 0){
-                std::cout << " ";
             }
         }
         std::cout << "\n DATA: " << text.length() <<" Bytes / "<< text.length()/(pow(2,10))<<" KB / " << text.length()/(pow(2,20))<<" MB / " << text.length()/(pow(2,30))<<" GB " << text.length()/(pow(2,40))<<" TB.";
@@ -57,21 +56,19 @@ int main(int argc, char** argv){
             std::ofstream outputFile;
             if (argc == 3){
                 std::string file = argv[1];
-                outputFile.open ( file.append(".bin") , std::ios::trunc );
+                file = file.substr(0, file.size()-4);
+                outputFile.open ( file.append(".dmp") , std::ios::trunc );
             }else if (argc == 4){
                 std::string file = argv[3];
                 outputFile.open ( file , std::ios::trunc );
             }
-            outputFile << "\n DATA: " << text.length() <<" Bytes / "<< text.length()/(pow(2,10))<<" KB / " << text.length()/(pow(2,20))<<" MB / " << text.length()/(pow(2,30))<<" GB " << text.length()/(pow(2,40))<<" TB.";
-            outputFile << "\n FILENAME: " << argv[1] << "\n\n";  
-            outputFile << " ";
+            outputFile << "\nDATA: " << text.length() <<" Bytes / "<< text.length()/(pow(2,10))<<" KB / " << text.length()/(pow(2,20))<<" MB / " << text.length()/(pow(2,30))<<" GB " << text.length()/(pow(2,40))<<" TB.";
+            outputFile << "\nFILENAME: " << argv[1] << "\n\n";  
             for (int i = 1; i < text.length()+1; i++){
                 std::bitset<8> myBuffer (text[i-1]);
                 outputFile << std::setw(0) << myBuffer << ' ';
-                if( i%32 == 0){
+                if( i%8 == 0){
                     outputFile << "\n";
-                }if( i%8 == 0){
-                    outputFile << " ";
                 }
             }
    

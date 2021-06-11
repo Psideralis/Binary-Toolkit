@@ -1,15 +1,14 @@
 #! /usr/bin
 #UNINSTALL BATCH
-echo Uninstalling
-#REMOVE ENVIROMENT VARIABLES
-export PATH = /usr/bin/Bindump/Cdump/bin
-export PATH = /usr/bin/Bindump/Bindump/bin
-export PATH = /usr/bin/Bindump/Pydump/bin
+echo "Uninstalling from /urs/bin"
 #REMOVE DIRECTORIES
-rm -R /usr/bin/Bindump
-#CONFIRM
-whereis bindump
-whereis bindump++
+rm /usr/bin/bindumpp
+rm /usr/bin/cdump
+rm /usr/bin/pydump
+:: CONFIRM
+echo "Search for bindumpp"
+whereis bindumpp
+echo "Search for cdump"
+whereis cdump
+echo "Search for pyumpp"
 whereis pydump
-#TEST
-
