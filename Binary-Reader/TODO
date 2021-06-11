@@ -1,0 +1,20 @@
+Entry 04/07/2020
+    Pendant:
+        - Pydump skeleton, formatting and version
+        - Batch: (un)installation
+        - Parameter verification
+        - Parameter adding -b -o -h -a -u
+    Optional (?):
+        - Tools:
+            -Dissasembler
+            -Decompiler
+            -Disinterpreter
+    
+Entry 05/12/2020
+    Pendant:
+        - C skeleton, formatting
+        - C++ skeleton, formatting
+        - Parameter verification
+        - Parameter adding -b -o -h -a -u
+        - CMAKE: compilation and (un)installation.
+        
