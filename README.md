@@ -32,15 +32,15 @@ Hybrid - Progress: 0%
 #### Version:
 00.00.000.001
 #### Description:
-Cryptographic and compression utilities for binary analyzer and synthetizer. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
-    - Assymetric/Symmetric Key
-    - Public/Private Key
-    - Key Servers
-    - Digital Signatures
-    - Hash Functions
-    - Transaction Certificates
-    - Selfdestructable Enclosures
-    - Security Breach Tests
+Cryptographic and compression utilities for binary analyzer and synthetizer. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.<br>
+    - Assymetric/Symmetric Key<br>
+    - Public/Private Key<br>
+    - Key Servers<br>
+    - Digital Signatures<br>
+    - Hash Functions<br>
+    - Transaction Certificates<br>
+    - Selfdestructable Enclosures<br>
+    - Security Breach Tests<br>
 
 ## Binary Editor & Monitor
 ### Status:
