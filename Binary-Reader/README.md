@@ -30,7 +30,10 @@ Linux requirements:<br/>
         -o: output octal format.
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
-        -u: output UTF-8 format. Can be used with -b, -o or -h.
+        -u8: output UTF-8 format. Can be used with -b, -o or -h.
+        -u16: output UTF-16 format. Can be used with -b, -o or -h.
+        -u32: output UTF-32 format. Can be used with -b, -o or -h.
+        -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path]
   ### C++     : bindump++   00.00.000.001<br/>
     Manual:
       Description:
@@ -39,7 +42,10 @@ Linux requirements:<br/>
         -o: output octal format.
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
-        -u: output UTF-8 format. Can be used with -b, -o or -h.
+        -u8: output UTF-8 format. Can be used with -b, -o or -h.
+        -u16: output UTF-16 format. Can be used with -b, -o or -h.
+        -u32: output UTF-32 format. Can be used with -b, -o or -h.
+        -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path]
   ### C       : bindump     00.00.000.001<br/>
     Manual:
       Description:
@@ -48,7 +54,10 @@ Linux requirements:<br/>
         -o: output octal format.
         -h: ouptut hexadecimal format.
         -a: output ASCII format. Can be used with -b, -o or -h.
-        -u: output UTF-8 format. Can be used with -b, -o or -h.
+        -u8: output UTF-8 format. Can be used with -b, -o or -h.
+        -u16: output UTF-16 format. Can be used with -b, -o or -h.
+        -u32: output UTF-32 format. Can be used with -b, -o or -h.
+        -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path]
 ## Output file format:
   ### HEADER:<br/>
     Output filename: "Filename"
@@ -56,7 +65,7 @@ Linux requirements:<br/>
     Date: "Date of read"
     Time: "Time of read"
   ### BODY:<br/>
-    "DATA IN COLUMNS" | "ASCII OR UTF-8 TABLE IF -a or -u"
+    "DATA IN COLUMNS" | "ASCII OR UTF"
   ### FOOTER:<br/>
     Read filename: "Filename"
     Read filepath: "Filepath"
@@ -66,6 +75,7 @@ Linux requirements:<br/>
     Read time: "Read time"
     Speed: "Read speed"
     File format: "Tries to output file format"
+    Metadata: "Tries to output the metadata"
 ## Compilation:<br/>
   ### WINDOWS:<br/>
     Python  : No compilation!
@@ -87,6 +97,8 @@ Linux requirements:<br/>
     Python,C,C++  : ./Script/uninstall.bat
   ### LINUX:<br/>
     Python,C,C++  : ./Script/uninstall.sh
+    
+<!---
 ## Tools:<br/>
   ### Disassembler: 
   #### Tries to output assembly code from binary file. <br/>
@@ -106,3 +118,4 @@ Linux requirements:<br/>
     License: GNU GPL
     Status: Unfinished
     Versions: 00.00.000.001
+-->
