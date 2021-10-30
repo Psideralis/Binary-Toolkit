@@ -8,7 +8,7 @@ Public - Progress: 05%
 ## Version
 00.00.000.001
 ## Description:
-Binary Toolkit bases for Supressor a cross-platform and cross-architecture control monitor for a antimalware security conglomerated distributed heterogeneous network agency.
+Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (64, ARM) control monitor for a antimalware security conglomerated distributed heterogeneous network agency.
 
 ## Binary Reader
 ### Status:
