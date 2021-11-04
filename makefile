@@ -1,5 +1,6 @@
 
-ALL: RUN 
+ALL: BUILD 
+
+BUILD:
 
 RUN:
-	
