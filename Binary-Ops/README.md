@@ -1,4 +1,4 @@
-# Binary-Editor
+# Binary-Ops
 ## Author: 
 Psideralis<br/>
 ## License: 

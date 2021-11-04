@@ -113,7 +113,7 @@ Linux requirements:<br/>
     Status: Unfinished
     Versions: 00.00.000.001
   ### Disinterpreter: 
-  #### Tries to output Python code from C++ file. <br/>
+  #### Tries to output Python or C# code from C++ file. <br/>
     Author: Psideralis
     License: GNU GPL
     Status: Unfinished
