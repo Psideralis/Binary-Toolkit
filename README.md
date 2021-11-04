@@ -58,12 +58,12 @@ A binary toolkit for cybersecurity operations. Includes partially open developme
 ## Manual
 See Binary Ops README.md
 
-### Netcryptocompress
-#### Status:
+## Netcryptocompress
+### Status:
 Hybrid - Progress: 2%
-#### Version:
+### Version:
 00.00.000.001
-#### Description:
+### Description:
 Network, cryptographic and compression server for binary ops, bases for XenoEngine: a cero knowledge enclosed critoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code. Includes:<br>
     - Minimum loss & lossless (de)compression<br>
     - Assymetric/Symmetric Public/Private Keys and Key Servers<br>
@@ -80,4 +80,4 @@ Public - Progress: 2%
 ### Description:
 A hex control GUI monitor and editor with binary reader and operations capabilities for conglomerated distributed heterogeneous network antimalware security agency administration.
 ## Manual
-See Binary ControlRoom & Monitor README.md
+See Binary ControlRoom README.md
