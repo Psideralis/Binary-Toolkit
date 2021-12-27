@@ -23,17 +23,17 @@ A hex control GUI monitor and editor with binary reader and operations capabilit
 ## Manual
 ### Installation
     make uninstall platform=["windows", "linux", "mac"]
-        or
+    or
     Windows
         install.sh
-    or 
+        or 
     Linux or Mac:
         install.sh
 ### Uninstallation
     make uninstall platform=["windows", "linux", "mac"]
-        or
+    or
     Windows
         uninstall.sh
-    or 
+        or 
     Linux or Mac:
         uninstall.sh
