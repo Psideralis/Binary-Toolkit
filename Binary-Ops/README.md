@@ -1,11 +1,12 @@
-# Binary-Ops
+# Binary Ops
 ## Author: 
-Psideralis<br/>
+Psideralis
 ## License: 
-GNU General Public License 3.0 & Psideralis Commune Public License<br/>
+Psideralis Commune Public License
 ## Status:
-Public<br/>
+Public - Progress: 0%
 ## Version
-00.00.000.001<br/>
+00.00.000.001
 ## Description:
-Binary Analysis tool.<br/>
+A binary toolkit for cybersecurity operations. Includes partially open development headers and object libraries, as well as a command with basic functions: binop. binyect, bintrace.
+## Manual:

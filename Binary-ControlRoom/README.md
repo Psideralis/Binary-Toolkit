@@ -1,11 +1,12 @@
-# Binary-Editor
+# Binary ControlRoom
 ## Author: 
-Psideralis<br/>
+Psideralis
 ## License: 
-GNU General Public License 3.0 & Psideralis Commune Public License<br/>
+Psideralis Commune Public License
 ## Status:
-Public<br/>
+Public - Progress: 0%
 ## Version
-00.00.000.001<br/>
+00.00.000.001
 ## Description:
-A binary editor with binary reader and analysis embedded.<br/>
+A hex control GUI monitor and editor with binary reader and binary operations capabilities for conglomerated distributed heterogeneous network antimalware security agency administration.
+## Manual:

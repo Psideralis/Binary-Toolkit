@@ -3,12 +3,14 @@
 Psideralis<br/>
 ## License: 
 GNU General Public License 3.0 and Psideralis Commune Public License<br/>
-## Status:
-Public - Progress: 15%<br/>
-## Version
-00.00.000.002<br/>
-## Description:
-Reads any file and ouput to file its binary (octal,hex,ascii) dump.<br/>
+### Status:
+Public - Progress: 60%
+### Version
+00.00.000.002
+### Description:
+Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
+## Manual
+See Binary Reader README.md
 
 Windows requirments:<br/>
   - cl <br/>
