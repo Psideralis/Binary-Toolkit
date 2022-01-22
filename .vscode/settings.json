@@ -7,5 +7,6 @@
         "initializer_list": "c",
         "xiosbase": "c",
         "xutility": "c"
-    }
+    },
+    "cmake.configureOnOpen": false
 }
