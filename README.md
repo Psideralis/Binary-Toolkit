@@ -20,13 +20,14 @@ A binary toolkit for cybersecurity operations. Includes partially open developme
 Network, cryptographic and compression server for binary ops, bases for XenoEngine: a zero knowledge enclosed cryptoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
 
 ### Binary Pit
-A hex control GUI monitor and editor with binary reader and operations capabilities for k antimalware security conglomerated distributed heterogeneous network agency administration.
+A hex control CLI monitor with binary reader and operations capabilities for antimalware security conglomerated distributed heterogeneous network agency administration.
 
 For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) with world map real time display for network administration of conglomerated distributed heterogeneous cluster systems and graphical representations for data visualization, machine learning security predictions and postfactums (both offensive and defensive) and multiple features more (including custom cryptography, stenography with real time transactions monitoring and zero knowledge non-repudiatable operations), all included in commercial version. Contact Psideralis for more information.
 
 ## Manual
 ### Installation
-    make build platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
+    cd binary-toolkit
+    make build
     make install platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
     make uninstall platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
 
@@ -38,7 +39,8 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
     Linux or Mac (A command line menu will be displayed for options selection):
         Installation:   install.sh
 ### Uninstallation
-    make uninstall platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
+    cd binary-toolkit
+    make uninstall
     
     or
 
@@ -80,25 +82,57 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -u32: output UTF-32 format. Can be used with -b, -o or -h.
         -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path] (See CCT File Format below)
 
-#### Dinary Ops
+#### Binary Ops
 
     xfsdiff  [parameters] [options]
         Creates a backup of the file system, if already exist creates a diff file.
 
+    Options:
+        -
+    Parameters:
+        -
+
     xfscntrl  [parameters] [options]
         Control options for file management.
+
+    Options:
+        -
+    Parameters:
+        -
 
     xprocdiff  [parameters] [options]
         Creates a backup of the process system, if already exist creates a diff file.
 
+    Options:
+        -
+    Parameters:
+        -
+
     xproccntrl  [parameters] [options]
         Control options for process management.
+
+    Options:
+        -
+    Parameters:
+        -
 
     xnetdiff  [parameters] [options]
         Creates a backup of the network system, if already exist creates a diff file.
 
+    Options:
+        -
+
+    Parameters:
+        -
+
     xnetcntrl  [parameters] [options]
         Control options for network management.
+
+    Options:
+        - 
+    
+    Parameters:
+        -
 
     binops [parameters] [options]
 
@@ -137,11 +171,30 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -l: create cipher vault
         -h: decypher vault vault
 
+    binyect [parameters] [options]
+
+    sharpbinyect [parameters] [options]
+
+    Options:
+        -
+    Parameters:
+        -
+
+    bintrace [parameters] [options]
+
+    sharpbintrace [parameters] [options]
+
+    Options:
+        -
+    Parameters:
+        -
+
 #### Binary Pit
     binpit [parameters] [options]
         By default it opens Binary Pit CLI (Windows, Linux, MacOS, [Android, iOS: requires Shell]).
 
     Options:
+        -
 
     Parameters:
         -c:   command mode
