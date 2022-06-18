@@ -5,31 +5,30 @@ Psideralis
 Psideralis Commune Public License
 ## Status:
 UNFINISHED UNRELEASED
-Public - Progress: 10%
+Public - Progress: 20%
 ## Version
-00.00.000.001
+00.00.001.000
 ## Description:
-Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM) control monitor for a antimalware security conglomerated distributed heterogeneous network agency.
+Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM, MIPS, POWER, RISC) control monitor for a antimalware security conglomerated distributed heterogeneous network agency.
 
 ### Binary Reader
 Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
 
 ### Binary Ops
-A binary toolkit for cybersecurity operations. Includes partially open development headers and shared libraries, as well as a command with basic functions:  binop. binyect, bintrace.
+A binary toolkit for cybersecurity operations. Includes partially open development headers and shared libraries, as well as a command with basic functions:  binop. binyect, bintrace. Diff and control executives for organizacional, file, process and network systems.
 #### Netcryptocompress
-Network, cryptographic and compression server for binary ops, bases for XenoEngine: a zero knowledge enclosed cryptoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
+Cryptographic and compression network server for binary ops, bases for XenoEngine: a zero knowledge enclosed cryptoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
 
 ### Binary Pit
 A hex control CLI monitor with binary reader and operations capabilities for antimalware security conglomerated distributed heterogeneous network agency administration.
 
-For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) with world map real time display for network administration of conglomerated distributed heterogeneous cluster systems and graphical representations for data visualization, machine learning security predictions and postfactums (both offensive and defensive) and multiple features more (including custom cryptography, stenography with real time transactions monitoring and zero knowledge non-repudiatable operations), all included in commercial version. Contact Psideralis for more information.
+For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) with world map real time display for network administration of conglomerated distributed heterogeneous cluster systems and graphical representations for data visualization, machine learning security predictions and postfactums (offensive, affensive, evasive and defensive) and multiple features more (including custom cryptography, stenography with real time transactions monitoring and zero knowledge non-repudiatable operations), all included in commercial version. Contact Psideralis for more information.
 
 ## Manual
 ### Installation
     cd binary-toolkit
     make build
     make install platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
-    make uninstall platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
 
     or
 
@@ -38,9 +37,10 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         Installation:   install.bat or install.ps1
     Linux or Mac (A command line menu will be displayed for options selection):
         Installation:   install.sh
+
 ### Uninstallation
     cd binary-toolkit
-    make uninstall
+    make uninstall platform=("windows" or "linux" or "mac") architecture=("amd64" or "x86" or "arm")
     
     or
 
@@ -84,6 +84,22 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
 
 #### Binary Ops
 
+    xorgdiff  [parameters] [options]
+        Creates a backup of the organization system, if already exist creates a diff file.
+
+    Options:
+        -
+    Parameters:
+        -
+
+    xorgcntrl  [parameters] [options]
+        Control options for organization management.
+
+    Options:
+        -
+    Parameters:
+        - 
+        - 
     xfsdiff  [parameters] [options]
         Creates a backup of the file system, if already exist creates a diff file.
 
@@ -126,7 +142,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -
 
     xnetcntrl  [parameters] [options]
-        Control options for network management.
+        Control options for network management. Included firewall, proxy and gateway configuration, private network and network architecture security management. For defensive and offensive exploits contact Psideralis for commercial version.
 
     Options:
         - 
@@ -191,10 +207,11 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
 
 #### Binary Pit
     binpit [parameters] [options]
-        By default it opens Binary Pit CLI (Windows, Linux, MacOS, [Android, iOS: requires Shell]).
+        By default it opens Binary Pit CLI (Windows, Linux, MacOS, [Android, iOS: requires Shell]). Security service that monitor, reports and control ops the organization resources.
 
     Options:
-        -
+        -clt: run as client
+        -srv: run as server
 
     Parameters:
         -c:   command mode
