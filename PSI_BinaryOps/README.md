@@ -4,9 +4,9 @@ Psideralis
 ## License: 
 Psideralis Commune Public License
 ## Status:
-Public - Progress: 0%
+Public - Progress: 5%
 ## Version
-00.00.000.001
+00.00.001.000
 ## Description:
 A binary toolkit for cybersecurity operations. Includes partially open development headers and object libraries, as well as a command with basic functions: binop. binyect, bintrace.
 ## Manual:    

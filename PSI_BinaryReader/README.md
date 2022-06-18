@@ -1,30 +1,30 @@
 # Binary-Reader
 ## Author: 
-Psideralis<br/>
+Psideralis
 ## License: 
-GNU General Public License 3.0 and Psideralis Commune Public License<br/>
+Psideralis Commune Public License
 ### Status:
 Public - Progress: 60%
 ### Version
-00.00.000.002
+00.00.001.000
 ### Description:
 Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
 ## Manual
 See Binary Reader README.md
 
-Windows requirments:<br/>
-  - cl <br/>
-  - nmake <br/>
-  - cmake <br/>
+Windows requirments:
+  - cl 
+  - nmake 
+  - cmake 
 
-Linux requirements:<br/>
-  - gcc<br/>
-  - g++<br/>
-  - make <br/>
-  - cmake <br/>
+Linux requirements:
+  - gcc
+  - g++
+  - make 
+  - cmake 
 
-## Versions:<br/>
-  ### Python : pydump  00.00.000.001<br/>
+## Versions:
+  ### Python : pydump  00.00.000.001
     Manual:
       Description:
       Parameters:
@@ -36,7 +36,7 @@ Linux requirements:<br/>
         -u16: output UTF-16 format. Can be used with -b, -o or -h.
         -u32: output UTF-32 format. Can be used with -b, -o or -h.
         -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path]
-  ### C++     : bindump++   00.00.000.001<br/>
+  ### C++     : bindump++   00.00.000.001
     Manual:
       Description:
       Parameters:
@@ -48,7 +48,7 @@ Linux requirements:<br/>
         -u16: output UTF-16 format. Can be used with -b, -o or -h.
         -u32: output UTF-32 format. Can be used with -b, -o or -h.
         -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path]
-  ### C       : bindump     00.00.000.001<br/>
+  ### C       : bindump     00.00.000.001
     Manual:
       Description:
       Parameters:
@@ -61,14 +61,14 @@ Linux requirements:<br/>
         -u32: output UTF-32 format. Can be used with -b, -o or -h.
         -cct: output a custom code table format. Can be used with -b, -o or -h. Requires parameter: -cct_file [File path]
 ## Output file format:
-  ### HEADER:<br/>
+  ### HEADER:
     Output filename: "Filename"
     Output filepath: "Filepath"
     Date: "Date of read"
     Time: "Time of read"
-  ### BODY:<br/>
+  ### BODY:
     "DATA IN COLUMNS" | "ASCII OR UTF"
-  ### FOOTER:<br/>
+  ### FOOTER:
     Read filename: "Filename"
     Read filepath: "Filepath"
     Date: "Date of read"
@@ -78,44 +78,44 @@ Linux requirements:<br/>
     Speed: "Read speed"
     File format: "Tries to output file format"
     Metadata: "Tries to output the metadata"
-## Compilation:<br/>
-  ### WINDOWS:<br/>
+## Compilation:
+  ### WINDOWS:
     Python  : No compilation!
     C++     : nmake or cmake
     C       : nmake or cmake
-  ### LINUX:<br/>
+  ### LINUX:
     Python  : No compilation!
     C++     : make or cmake
     C       : make or cmake
-## Installation:<br/>
+## Installation:
   ### WINDOWS:
     PATH = ""%HOME%\AppData\LocalPrograms\Bindump"
     Python,C,C++  : ./Script/install.bat
   ### LINUX:
     PATH = "/usr/bin/Bindump"
     Python,C,C++  : ./Script/install.sh
-## Uninstallation:<br/>
-  ### WINDOWS:<br/>
+## Uninstallation:
+  ### WINDOWS:
     Python,C,C++  : ./Script/uninstall.bat
-  ### LINUX:<br/>
+  ### LINUX:
     Python,C,C++  : ./Script/uninstall.sh
     
 <!---
-## Tools:<br/>
+## Tools:
   ### Disassembler: 
-  #### Tries to output assembly code from binary file. <br/>
+  #### Tries to output assembly code from binary file. 
     Author: Psideralis
     License: GNU GPL
     Status: Unfinished
     Versions: 00.00.000.001
   ### Decompiler: 
-  #### Tries to output C or C++ code from binary file or assembly file. <br/>
+  #### Tries to output C or C++ code from binary file or assembly file. 
     Author: Psideralis
     License: GNU GPL
     Status: Unfinished
     Versions: 00.00.000.001
   ### Disinterpreter: 
-  #### Tries to output Python or C# code from C++ file. <br/>
+  #### Tries to output Python or C# code from C++ file. 
     Author: Psideralis
     License: GNU GPL
     Status: Unfinished

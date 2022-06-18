@@ -5,24 +5,25 @@ Psideralis
 Psideralis Commune Public License
 ## Status:
 UNFINISHED UNRELEASED
-Public - Progress: 20%
+Public - Progress: 25%
 ## Version
 00.00.001.000
 ## Description:
-Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM, MIPS, POWER, RISC) control monitor for a antimalware security conglomerated distributed heterogeneous network agency.
+Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM, MIPS, POWER, RISC) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
 
 ### Binary Reader
 Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
 
 ### Binary Ops
 A binary toolkit for cybersecurity operations. Includes partially open development headers and shared libraries, as well as a command with basic functions:  binop. binyect, bintrace. Diff and control executives for organizacional, file, process and network systems.
+
 #### Netcryptocompress
 Cryptographic and compression network server for binary ops, bases for XenoEngine: a zero knowledge enclosed cryptoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
 
 ### Binary Pit
-A hex control CLI monitor with binary reader and operations capabilities for antimalware security conglomerated distributed heterogeneous network agency administration.
+A CLI (command line interface) monitor tool with binary reader and operations capabilities for antimalware security cluster conglomerated distributed heterogeneous network agency administration.
 
-For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) with world map real time display for network administration of conglomerated distributed heterogeneous cluster systems and graphical representations for data visualization, machine learning security predictions and postfactums (offensive, affensive, evasive and defensive) and multiple features more (including custom cryptography, stenography with real time transactions monitoring and zero knowledge non-repudiatable operations), all included in commercial version. Contact Psideralis for more information.
+For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) with world map real time display for network administration of cluster conglomerated distributed heterogeneous systems and graphical representations for data visualization, machine learning security predictions, prefactums, postdictions and postfactums (offensive, affensive, evasive and defensive) in seven levels of security and multiple features more (including custom cryptography, stenography with real time transactions monitoring and zero knowledge non-repudiatable certificated operations), all included in commercial version. Contact Psideralis for more information.
 
 ## Manual
 ### Installation
@@ -206,12 +207,16 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -
 
 #### Binary Pit
-    binpit [parameters] [options]
-        By default it opens Binary Pit CLI (Windows, Linux, MacOS, [Android, iOS: requires Shell]). Security service that monitor, reports and control ops the organization resources.
+    binarypit [parameters] [options]
+
+        or
+
+    binpitclnt [parameters] [options]
+
+        By default it starts Binary Pit server (Windows, Linux, MacOS, [Android, iOS: requires Terminal]). Security service that monitor, reports and control ops the resources: organization, filesystem, process and network. Seven levels of defensive, evasive, affensive and offensive notifications and responses. Requires binary pit client (binpinclnt) if remote, otherwise uses binary pit (binarypit). Uses configuration file: binpin.config. For manual of configuration file see: binarypit -config
 
     Options:
-        -clt: run as client
-        -srv: run as server
+        -config, -c:    configuration file manual
+        -cli, -l:       command mode
 
     Parameters:
-        -c:   command mode
