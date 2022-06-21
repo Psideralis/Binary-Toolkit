@@ -15,7 +15,7 @@ Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs
 Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
 
 ### Binary Ops
-A binary toolkit for cybersecurity operations. Includes partially open development headers and shared libraries, as well as a command with basic functions:  binop. binyect, bintrace. Diff and control executives for organizacional, file, process and network systems.
+A binary toolkit for cybersecurity operations. Includes partially open development headers and object libraries, as well as a command with basic functions: xorgdiff, xorgcntrl, xfsdiff, xfscntrl, xprocdiff, xproccntrl, xnetdiff, xnetcntrl, binop. binyect, bintrace.
 
 #### Netcryptocompress
 Cryptographic and compression network server for binary ops, bases for XenoEngine: a zero knowledge enclosed cryptoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
@@ -53,6 +53,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
 
 ### Use
 #### Binary Reader
+----------
     bindump [parameters] [options] [file]
 
     bindump++ [parameters] [options] [file]
@@ -85,38 +86,53 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
 
 #### Binary Ops
 
+----------
     xorgdiff  [parameters] [options]
         Creates a backup of the organization system, if already exist creates a diff file.
 
     Options:
-        -
+        -:
     Parameters:
-        -
+        -:
 
     xorgcntrl  [parameters] [options]
         Control options for organization management.
 
     Options:
-        -
+        -x: expose information of time, space and organization of a thread organization
     Parameters:
         - 
         - 
+        - 
+----------
     xfsdiff  [parameters] [options]
         Creates a backup of the file system, if already exist creates a diff file.
 
     Options:
-        -
+        -b: creates backup file of fylesystem
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a beck up file
     Parameters:
-        -
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path 
 
     xfscntrl  [parameters] [options]
         Control options for file management.
 
     Options:
-        -
+        -x: expose information of time, space and organization of a thread file
+        -:
+        -:
+        -:
     Parameters:
-        -
-
+        -:
+        -:
+        -:
+        -:
+----------
     xprocdiff  [parameters] [options]
         Creates a backup of the process system, if already exist creates a diff file.
 
@@ -129,15 +145,15 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         Control options for process management.
 
     Options:
-        -
+        -x: expose information of time, space and organization of a thread process
     Parameters:
         -
-
+----------
     xnetdiff  [parameters] [options]
         Creates a backup of the network system, if already exist creates a diff file.
 
     Options:
-        -
+        -x: expose information of time, space and organization of a thread network socket
 
     Parameters:
         -
@@ -150,7 +166,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
     
     Parameters:
         -
-
+----------
     binops [parameters] [options]
 
     sharpbinops [parameters] [options]
@@ -187,7 +203,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -k: create master key
         -l: create cipher vault
         -h: decypher vault vault
-
+----------
     binyect [parameters] [options]
 
     sharpbinyect [parameters] [options]
@@ -196,8 +212,26 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -
     Parameters:
         -
-
+----------
     bintrace [parameters] [options]
+
+    sharpbintrace [parameters] [options]
+
+    Options:
+        -
+    Parameters:
+        - 
+----------
+    xnetcrypto [parameters] [options]
+
+    sharpbintrace [parameters] [options]
+
+    Options:
+        -
+    Parameters:
+        - 
+
+    xnetcompress [parameters] [options]
 
     sharpbintrace [parameters] [options]
 
@@ -207,6 +241,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -
 
 #### Binary Pit
+----------
     binarypit [parameters] [options]
 
         or

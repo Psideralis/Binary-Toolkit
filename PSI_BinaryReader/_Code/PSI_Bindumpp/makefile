@@ -1,32 +1,36 @@
 
 ALL: BUILD_WIN RUN_WIN CLEAN_WIN
 
-BUILD_WIN: 
-	@cl ./(file).cpp /I ./$(directory/headers /o ./$(directory/bin/bindumpp.exe
+build:
+ifeq ($(platform),LINUX)
+	g++
+else ifeq ($(platform),WINDOWS)
+	cl
+else ifeq ($(platform),MAC)
+	clang++
+else
+	echo "NO PLATFORM."	
+endif
 
-BUILD_LINUX: 
-	@g++ ./(file).cpp -I ./$(directory/headers -o ./$(directory/bin/bindumpp
+install:
+ifeq ($(platform),LINUX)
 
-RUN_WIN:
-	./bin/bindump.exe $(file) $(parameters)
+else ifeq ($(platform),WINDOWS)
 
-RUN_LINUX:
-	./bin/bindump $(file) $(parameters)
+else ifeq ($(platform),MAC)
 
-CLEAN_WIN: 
-	@del bindumpp.exe bindumpp.obj
-
-CLEAN_LINUX: 
-	@rm bindumpp 
-
-INSTALL_WIN:
-
-
-INSTALL_LINUX:
-
-
-UNINSTALL_WIN:
+else
+	echo "NO PLATFORM."
+endif
 
 
-UNINSTALL_LINUX:
+uninstall:
+ifeq ($(platform),LINUX)
 
+else ifeq ($(platform),WINDOWS)
+
+else ifeq ($(platform),MAC)
+
+else
+	echo "NO PLATFORM."
+endif
