@@ -5,8 +5,9 @@ File name:  main.hpp
 
 ********************************************* */ 
 
-#include "PSI_BinaryToolkit.hpp"
+#ifndef PSI_BINTOOLKIT
+#define PSI_BINTOOLKIT
 
-int main(int, char**) {
 
-}
+
+#endif

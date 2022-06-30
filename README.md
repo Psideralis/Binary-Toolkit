@@ -7,15 +7,15 @@ Psideralis Commune Public License
 UNFINISHED UNRELEASED
 Public - Progress: 25%
 ## Version
-00.00.001.000
+00.00.001.001
 ## Description:
-Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM, MIPS, POWER, RISC) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
+Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM, MIPS, POWER, RISC-V) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
 
 ### Binary Reader
 Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
 
 ### Binary Ops
-A binary toolkit for cybersecurity operations. Includes partially open development headers and object libraries, as well as a command with basic functions: xorgdiff, xorgcntrl, xfsdiff, xfscntrl, xprocdiff, xproccntrl, xnetdiff, xnetcntrl, binop. binyect, bintrace.
+A binary toolkit for cybersecurity operations. Includes partially open development headers and object libraries, as well as a command with basic functions: xorgdiff, xorgcntrl, xfsdiff, xfscntrl, xprocdiff, xproccntrl, xnetdiff, xnetcntrl, binop, binyect, bintrace.
 
 #### Netcryptocompress
 Cryptographic and compression network server for binary ops, bases for XenoEngine: a zero knowledge enclosed cryptoengine. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code.
@@ -91,28 +91,41 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         Creates a backup of the organization system, if already exist creates a diff file.
 
     Options:
-        -:
+        -b: creates backup file of the organization system
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
-        -:
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path 
 
     xorgcntrl  [parameters] [options]
         Control options for organization management.
 
     Options:
-        -x: expose information of time, space and organization of a thread organization
+        -x: expose information of time, space and organization of a organization thread 
+        -a: modify the permissions of the organization system
+        -c: modify the credentials of the organization system
+        -g: exposes the log and records of the organization system
+        -r: programm autoremove
     Parameters:
-        - 
-        - 
-        - 
+        -f: modify the permissions of a specific file or entity 
+        -e: modify the credentials of a specific entity 
+        -i: verify the diff hash of a organization diff
+        -h: expose the log and record
 ----------
     xfsdiff  [parameters] [options]
         Creates a backup of the file system, if already exist creates a diff file.
 
     Options:
-        -b: creates backup file of fylesystem
+        -b: creates backup file of fyle system
         -d: creates diff file between back up files
         -s: creates a diff of a specific file
-        -z: creates diff file between a specific file and a beck up file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
         -e: exhaustive backup file or diff
         -m: medium backup file or diff
@@ -123,49 +136,74 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         Control options for file management.
 
     Options:
-        -x: expose information of time, space and organization of a thread file
-        -:
-        -:
-        -:
+        -x: expose information of time, space and organization of a file thread 
+        -a: expose the organization system associated to a specific file
+        -c: expose the process system associated to a specific file
+        -n: expose the network system associated to a specific file
+        -g: expose the file metadata
+        -r: programm autoremove
     Parameters:
-        -:
-        -:
-        -:
-        -:
+        -f: verify the diff hash of a filesystem diff
+        -h: expose the log and record
 ----------
     xprocdiff  [parameters] [options]
         Creates a backup of the process system, if already exist creates a diff file.
 
     Options:
-        -
+        -b: creates backup file of process system
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
-        -
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path
 
     xproccntrl  [parameters] [options]
         Control options for process management.
 
     Options:
-        -x: expose information of time, space and organization of a thread process
+        -x: expose information of time, space and organization of a process and services thread
+        -a: expose the process and services threads and modules
+        -c: expose the libraries associated with the threads and their export modules
+        -g: verify the network system associated to a specific process and service
+        -r: programm autoremove
     Parameters:
-        -
+        -f: verify the diff hash of a process diff
+        -e: expose the log and record
 ----------
     xnetdiff  [parameters] [options]
         Creates a backup of the network system, if already exist creates a diff file.
 
     Options:
         -x: expose information of time, space and organization of a thread network socket
-
+        -b: creates backup file of process system
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
-        -
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path
 
     xnetcntrl  [parameters] [options]
         Control options for network management. Included firewall, proxy and gateway configuration, private network and network architecture security management. For defensive and offensive exploits contact Psideralis for commercial version.
 
-    Options:
-        - 
-    
+     Options:
+        -x: expose information of time, space and organization of a network thread
+        -a: expose the network ports and socket information
+        -g: expose the id and geolocalization of a incoming
+        -i: expose the purpose of a incoming
+        -c: expose the processes associated with the network and their ports and sockets
+        -g: verify the credentials system associated to a specific network
+        -r: programm autoremove
     Parameters:
-        -
+        -f: verify the diff hash of a network system diff
+        -e: expose the network log and records
 ----------
     binops [parameters] [options]
 
@@ -203,42 +241,68 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -k: create master key
         -l: create cipher vault
         -h: decypher vault vault
+        -r: programm autoremove
 ----------
     binyect [parameters] [options]
 
     sharpbinyect [parameters] [options]
 
     Options:
-        -
+        -i: inyect/deyect load to a binary
+        -x: inyect/deyect load to a executive
+        -f: inyect/deyect load to a file
+        -p: inyect/deyect load to a process
+        -n: inyect/deyect load to a network
     Parameters:
-        -
+        -r: programm autoremove
 ----------
     bintrace [parameters] [options]
 
     sharpbintrace [parameters] [options]
 
     Options:
-        -
+        -i: trace the process data
+        -s: trace the process stack
+        -o: trace the process organization
+        -f: trace the process file
+        -v: trace the process services
+        -m: trace the process modules
+        -n: trace the process network
     Parameters:
-        - 
+        -d: modify in runtime
+        -e: cypher interprocess communication
+        -x: cypher network communication
+        -r: programm autoremove
 ----------
     xnetcrypto [parameters] [options]
 
     sharpbintrace [parameters] [options]
 
     Options:
-        -
+        -c: cyphet/decypher the file
+        -p: create or verify public key
+        -v: create of verify private key
+        -g: create or verify signature
+        -c: create of verify certificate transaction
+        -n: cypher the network output
     Parameters:
-        - 
+        -s: select the encryptation mode
+            -RSA
+            -El Gamal
+        -r: programm autoremove
 
     xnetcompress [parameters] [options]
 
     sharpbintrace [parameters] [options]
 
     Options:
-        -
+        -c: compress the file
     Parameters:
-        -
+        -s: select the compress mode
+            -Lossless:
+
+            -Loss:
+        -r: programm autoremove
 
 #### Binary Pit
 ----------
@@ -252,6 +316,117 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
 
     Options:
         -config, -c:    configuration file manual
-        -cli, -l:       command mode
+        -start, -s:     start service
+        -pause, -p:     pause service
+        -stop, -t:      stop service
 
     Parameters:
+        -l: levels
+            /def: defensive [0,7]
+            /ev:  evasive [0,7]
+            /aff: affensive [0,7]
+            /off: offensive [0,7]
+        -m: monitor overall operations
+            /min:   minimum notification
+            /std:   standard notification
+            /full:  full notification
+            /v:     verbose 
+        -p: report overall operations
+        -c: control overall operations
+        -o: operation in server
+        -c: operation in client
+        -n: operation in nodes
+        -r: programm autoremove
+----------
+    xengine [parameters] [options] Not included. Contact Psideralis for commercial version access.
+
+    Options:
+        -config, -c:    configuration file manual
+        -start, -s:     start service
+        -pause, -p:     pause service
+        -stop, -t:      stop service
+
+    Parameters:
+        -x: run encrypted executive
+        -t: supervised transaction
+----------
+    supressor [parameters] [options] Not included. Contact Psideralis for commercial version access.
+
+    Options:
+        -config, -c:    configuration file manual
+        -start, -s:     start service
+        -pause, -p:     pause service
+        -stop, -t:      stop service
+        -l: levels
+            /def: defensive [0,7]
+            /ev:  evasie [0,7]
+            /aff: affensive [0,7] 
+            /off: offensive [0,7]
+    Parameters:
+        -x: run exploit 
+            /def: run defensive exploit [exploit name] [parameters] [options]
+            /ev:  run evasive exploit [exploit name] [parameters] [options]
+            /aff: run affensive exploit [exploit name] [parameters] [options]
+            /off: run offensive exploit [exploit name] [parameters] [options]
+
+    Exploits: {Comming soon}
+        -System exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Organization exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -File exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Process exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Network exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Device exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Network device exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Web exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Mobile exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Communication exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Embedded exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
+        -Social exploits
+            - Regulars:
+                -
+            - IA energized:
+                -
