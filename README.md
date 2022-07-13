@@ -310,7 +310,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
 
         or
 
-    binpitclnt [parameters] [options]
+    binpitclient [parameters] [options]
 
         By default it starts Binary Pit server (Windows, Linux, MacOS, [Android, iOS: requires Terminal]). Security service that monitor, reports and control ops the resources: organization, filesystem, process and network. Seven levels of defensive, evasive, affensive and offensive notifications and responses. Requires binary pit client (binpinclnt) if remote, otherwise uses binary pit (binarypit). Uses configuration file: binpin.config. For manual of configuration file see: binarypit -config
 
