@@ -168,8 +168,24 @@ void hex(FILE* file, char* buffer, long end, char* wbuffer, char mode){
     fclose(file);
 }
 
-int main(int argc, char const *argv[])
-{
+int main(int argc, char const *argv[]){
+    for (size_t i = 0; i < argc; i++)
+    {   
+        if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else if (argv[i]=="-"){
+        }else{
+        }
+    }
     // DECLARATION
     FILE* inBinary;
     FILE* outBinary;

@@ -3,11 +3,24 @@ ALL: build
 
 build:
 ifeq ($(platform),LINUX)
-	@gcc $(file) $(file).cpp -I ./headers -o ./bin/$(file) 
+	g++ -shared 
 else ifeq ($(platform),WINDOWS)
-	@cl $(file) $(file).cpp /I ./headers /o ./bin/$(file) 
+	cl /c 
+	link /dll
 else ifeq ($(platform),MAC)
-	@clang $(file) $(file).cpp -I ./headers -o ./bin/$(file) 
+	g++ -shared 
+else
+	echo "NO PLATFORM."	
+endif
+
+static:
+ifeq ($(platform),LINUX)
+	ar rvs 
+else ifeq ($(platform),WINDOWS)
+	cl /c 
+	link /dll 
+else ifeq ($(platform),MAC)
+	clang
 else
 	echo "NO PLATFORM."	
 endif

@@ -59,8 +59,24 @@ CLASSES:
 
 
 #ifdef WINDOWS
-    int __cdecl main(int argc, char **argv) 
-    {
+    int main(int argc, char const *argv[]){
+        for (size_t i = 0; i < argc; i++)
+        {   
+            if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else{
+            }
+        }
         WSADATA wsaData;
         SOCKET ConnectSocket = INVALID_SOCKET;
         struct addrinfo *result = NULL,
@@ -169,8 +185,24 @@ CLASSES:
 #endif
 
 #ifdef LINUX
-    int main(int argc, char const* argv[])
-    {
+    int main(int argc, char const *argv[]){
+        for (size_t i = 0; i < argc; i++)
+        {   
+            if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else{
+            }
+        }
         int sock = 0, valread, client_fd;
         struct sockaddr_in serv_addr;
         char* hello = "Hello from client";

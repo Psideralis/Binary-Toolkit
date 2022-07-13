@@ -1,13 +1,26 @@
 
-ALL: BUILD_WIN RUN_WIN CLEAN_WIN
+ALL: build 
 
 build:
 ifeq ($(platform),LINUX)
-	g++
+	g++ -shared 
 else ifeq ($(platform),WINDOWS)
-	cl
+	cl /c 
+	link /dll
 else ifeq ($(platform),MAC)
-	clang++
+	g++ -shared 
+else
+	echo "NO PLATFORM."	
+endif
+
+static:
+ifeq ($(platform),LINUX)
+	ar rvs 
+else ifeq ($(platform),WINDOWS)
+	cl /c 
+	link /dll 
+else ifeq ($(platform),MAC)
+	clang
 else
 	echo "NO PLATFORM."	
 endif

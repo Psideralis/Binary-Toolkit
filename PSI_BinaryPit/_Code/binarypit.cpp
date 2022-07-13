@@ -57,8 +57,24 @@ CLASSES:
 #define PORT 7755
 
 #ifdef WINDOWS
-    int __cdecl main(void) 
-    {
+    int main(int argc, char const *argv[]){
+        for (size_t i = 0; i < argc; i++)
+        {   
+            if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else{
+            }
+        }
         WSADATA wsaData;
         int iResult;
 
@@ -180,8 +196,24 @@ CLASSES:
 #endif
 
 #ifdef LINUX
-    int main(int argc, char const *argv[])
-    {
+    int main(int argc, char const *argv[]){
+        for (size_t i = 0; i < argc; i++)
+        {   
+            if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else if (argv[i]=="-"){
+            }else{
+            }
+        }
         int server_fd, new_socket, valread;
         struct sockaddr_in address;
         int opt = 1;
