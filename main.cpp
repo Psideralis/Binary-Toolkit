@@ -7,6 +7,6 @@ File name:  main.hpp
 
 #include "PSI_BinaryToolkit.hpp"
 
-int main(int, char**) {
+int main(int argc, char** argv) {
 
 }

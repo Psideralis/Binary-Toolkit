@@ -1,3 +1,12 @@
+#  /* **************************************************
+#  Author: Psideralis
+#  License: GNU GPL 3.0
+#  File name:  bindump.py
+#  
+#  
+#  
+#  ************************************************* */ 
+
 #! /usr/bin/env python
 # -*- coding: utf-8 -*-
 
@@ -11,6 +20,57 @@ __email__ = "psideralis@gmail.com"
 __status__ = "Development"
 
 import sys
+
+def audio():
+    print("Audio")
+
+def morse():
+    print("Audio")
+
+def image():
+    print("Audio")
+
+def video():
+    print("Audio")
+
+def curve():
+    print("Audio")
+
+def polynomial():
+    print("Audio")
+
+def polyhedra():
+    print("Audio")
+
+def wave():
+    print("Audio")
+
+def condensate():
+    print("Audio")
+
+def file():
+    print("Audio")
+
+def bin():
+    print("Audio")
+
+def hex():
+    print("Audio")
+    
+def asci():
+    print("Audio")
+    
+def utf8():
+    print("Audio")
+    
+def utf16():
+    print("Audio")
+        
+def utf32():
+    print("Audio")
+    
+def custom():
+    print("Audio")
 
 def bindump(filename):  
     counter = 0

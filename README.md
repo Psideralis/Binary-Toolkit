@@ -5,7 +5,7 @@ Psideralis
 Psideralis Commune Public License
 ## Status:
 UNFINISHED UNRELEASED
-Public - Progress: 25%
+Public - Progress: 30%
 ## Version
 00.00.001.001
 ## Description:
@@ -75,6 +75,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -wave: output an wave representation of the binary.
         -condensate: output an condensate representation of the binary.
     General Parameters:
+        -f [filename]: output dump file.
         -b: output binary format.
         -o: output octal format.
         -h: ouptut hexadecimal format.
@@ -347,8 +348,7 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
         -stop, -t:      stop service
 
     Parameters:
-        -x: run encrypted executive
-        -t: supervised transaction
+        
 ----------
     supressor [parameters] [options] Not included. Contact Psideralis for commercial version access.
 
@@ -367,66 +367,21 @@ For full results (HexMonitoriks: GUI for Supressor with integrated XenoEngine) w
             /def: run defensive exploit [exploit name] [parameters] [options]
             /ev:  run evasive exploit [exploit name] [parameters] [options]
             /aff: run affensive exploit [exploit name] [parameters] [options]
-            /off: run offensive exploit [exploit name] [parameters] [options]
+            /off: run offensive exploit [exploit name] [parameters] [options
 
-    Exploits: {Comming soon}
-        -System exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Organization exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -File exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Process exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Network exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Device exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Network device exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Web exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Mobile exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Communication exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Embedded exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
-        -Social exploits
-            - Regulars:
-                -
-            - IA energized:
-                -
+#### Communication Protocol Datagrams
+
+Transport Layer:
+    - Socket Open Channel:      PSI_CHN_XOPN
+    - Socket Closed Channel:    PSI_CHN_XCLS
+    - Socket Crypt Channel:     PSI_CHN_XKPT
+
+Session/Presentation:
+    - Session Open Package:      PSI_PKG_XOPN
+    - Session Closed Package:    PSI_PKG_XCLS
+    - Session Crypt Package:     PSI_PKG_XKPT
+
+Application:
+    - Application Open Data:      PSI_DATA_XOPN
+    - Application Closed Data:    PSI_DATA_XCLS
+    - Application Crypt Data:     PSI_DATA_XKPT

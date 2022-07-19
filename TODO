@@ -4,11 +4,10 @@ License: GNU GPL 3.0
 
 TODO:
 
-
 Entry 001: 18/05/22, 002 17/6/22 (Complete skeleton), 001.001  (Complete specification)
 Finish Daily :
 
-Entry 001: 17/6/22 (Server-client: Windows, Linux)
+Entry 001: 17/6/22 Server-Client
 Finish Nigthly :
 
 Entry 001
@@ -17,14 +16,43 @@ Finish Minor :
 Entry 001
 Finish Mayor :
 
+    PSIDERALIS CYBERSECURITY PLATFORM: STARHOUND-HEX MONITORIKS
 
+    Binary Toolkit
+        Binary Reader                           COMMUNE LICENSE
+        Binary Ops                              COMMUNE LICENSE
+            - binops
+            - binyect
+            - bintrace
+            - xnetcrypto
+            - xnetcompress
+        Binary Pit                              COMMUNE LICENSE
+            - Organization
+            - Files
+            - Process & Services
+            - Network       
+    Hex Monitoriks                              COMMERCIAL LICENSE
+        Supressor                               COMMERCIAL LICENCE
+            - Exploits
+            - Agents
+        XenoEngine                              COMMERCIAL LICENCE
+            - Runtime
+            - Transactions
+            - Krypth
+            - Xrypth (Organon Programatoria)
+        Xhryk                                   COMMERCIAL LICENCE
+            - Keys
+            - Hashs
+            - Signatures
+            - Certificates
+            - Keyphrases
 
 *****************************************************************************************************************
 *****************************************************************************************************************
 *****************************************************************************************************************
 
 
-                                        SUPRESSOR
+                                        STARHOUND-HEX MONITORIKS
 
 
 *****************************************************************************************************************
