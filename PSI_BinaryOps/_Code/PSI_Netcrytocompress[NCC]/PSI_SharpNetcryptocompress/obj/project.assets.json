@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\zamor\\Documents\\Code\\Binary-Toolkit\\PSI_BinaryReader\\_Code\\PSI_Sharpdump\\Sharpdump.csproj",
-      "projectName": "Sharpdump",
-      "projectPath": "C:\\Users\\zamor\\Documents\\Code\\Binary-Toolkit\\PSI_BinaryReader\\_Code\\PSI_Sharpdump\\Sharpdump.csproj",
+      "projectUniqueName": "C:\\Users\\zamor\\Documents\\Code\\Binary-Toolkit\\PSI_BinaryOps\\_Code\\PSI_Netcrytocompress[NCC]\\PSI_SharpNetcryptocompress\\PSI_SharpNetcryptocompress.csproj",
+      "projectName": "PSI_SharpNetcryptocompress",
+      "projectPath": "C:\\Users\\zamor\\Documents\\Code\\Binary-Toolkit\\PSI_BinaryOps\\_Code\\PSI_Netcrytocompress[NCC]\\PSI_SharpNetcryptocompress\\PSI_SharpNetcryptocompress.csproj",
       "packagesPath": "C:\\Users\\zamor\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\zamor\\Documents\\Code\\Binary-Toolkit\\PSI_BinaryReader\\_Code\\PSI_Sharpdump\\obj\\",
+      "outputPath": "C:\\Users\\zamor\\Documents\\Code\\Binary-Toolkit\\PSI_BinaryOps\\_Code\\PSI_Netcrytocompress[NCC]\\PSI_SharpNetcryptocompress\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

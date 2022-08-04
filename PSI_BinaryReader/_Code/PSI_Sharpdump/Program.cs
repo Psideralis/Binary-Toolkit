@@ -14,25 +14,6 @@ NAMESPACE:
     PSI_SharpDump
 CLASS:
     SharpDump
-FUNCTIONS:
-    audio()
-    morse()
-    image()
-    video()
-    curve()
-    polynomial()
-    polyhedra()
-    wave()
-    condensate()
-    file()
-    bin()
-    oct()
-    hex()
-    ascii()
-    utf8()
-    utf16()
-    utf32()
-    custom()
 MANUAL:
 
     sharpdump  [parameters] [options] [file]
@@ -65,25 +46,85 @@ using System.IO;
 
 namespace PSI_SharpDump{
     class ShardDump{
-        private void audio(){}
-        private void morse(){}
-        private void image(){}
-        private void video(){}
-        private void curve(){}
-        private void polynomial(){}
-        private void polyhedra(){}
-        private void wave(){}
-        private void condensate(){}
-        private void file(){}
-        private void bin(){}
-        private void oct(){}
-        private void hex(){}
-        private void utf8(){}
-        private void utf16(){}
-        private void utf32(){}
-        private void custom(){}
-        public static void main(int argc, string[] argv){
-            byte[] mybuffer = File.ReadAllBytes(argv[0]);
+        private void audio(){
+
+        }
+        private void morse(){
+
+        }
+        private void image(){
+
+        }
+        private void video(){
+
+        }
+        private void curve(){
+
+        }
+        private void polynomial(){
+
+        }
+        private void polyhedra(){
+
+        }
+        private void wave(){
+
+        }
+        private void condensate(){
+
+        }
+        private void file(){
+
+        }
+        private void bin(string file){
+            byte[] mybuffer = File.ReadAllBytes(file);
+            for (int i = 1; i < mybuffer.Length; i++)
+            {
+                if(i%8==0){
+                    Console.Write(Convert.ToString(mybuffer[i],16).PadLeft(8,'0')+"\n");
+                }else{
+                    Console.Write(Convert.ToString(mybuffer[i],16).PadLeft(8,'0')+":");
+                }
+            }
+        }
+        private void oct(string file){
+            byte[] mybuffer = File.ReadAllBytes(file);
+            for (int i = 1; i < mybuffer.Length; i++)
+            {
+                if(i%8==0){
+                    Console.Write(Convert.ToString(mybuffer[i],8).PadLeft(4,'0')+"\n");
+                }else{
+                    Console.Write(Convert.ToString(mybuffer[i],8).PadLeft(4,'0')+":");
+                }
+            }
+        }
+        private void hex(string file){
+            byte[] mybuffer = File.ReadAllBytes(file);
+            for (int i = 1; i < mybuffer.Length; i++)
+            {
+                if(i%8==0){
+                    Console.Write(Convert.ToString(mybuffer[i],16).PadLeft(2,'0')+"\n");
+                }else{
+                    Console.Write(Convert.ToString(mybuffer[i],16).PadLeft(2,'0')+":");
+                }
+            }
+        }
+        private void utf8(){
+
+        }
+        private void utf16(){
+
+        }
+        private void utf32(){
+
+        }
+        private void custom(){
+
+        }
+        
+        public static void Main(string[] args){
+            byte[] mybuffer = File.ReadAllBytes(args[0]);
+
         }
     }
 }

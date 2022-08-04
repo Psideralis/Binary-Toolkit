@@ -1,0 +1,15 @@
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.csproj.AssemblyReference.cache
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.AssemblyInfoInputs.cache
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.AssemblyInfo.cs
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.csproj.CoreCompileInputs.cache
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\bin\Debug\net6.0\Sharpdump.exe
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\bin\Debug\net6.0\Sharpdump.deps.json
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\bin\Debug\net6.0\Sharpdump.runtimeconfig.json
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\bin\Debug\net6.0\Sharpdump.dll
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\bin\Debug\net6.0\Sharpdump.pdb
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.dll
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\refint\Sharpdump.dll
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.pdb
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\Sharpdump.genruntimeconfig.cache
+C:\Users\zamor\Documents\Code\Binary-Toolkit\PSI_BinaryReader\_Code\PSI_Sharpdump\obj\Debug\net6.0\ref\Sharpdump.dll

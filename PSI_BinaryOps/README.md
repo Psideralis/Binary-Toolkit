@@ -15,28 +15,41 @@ A binary toolkit for cybersecurity operations. Includes partially open developme
         Creates a backup of the organization system, if already exist creates a diff file.
 
     Options:
-        -:
+        -b: creates backup file of the organization system
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
-        -:
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path 
 
     xorgcntrl  [parameters] [options]
         Control options for organization management.
 
     Options:
-        -x: expose information of time, space and organization of a thread organization
+        -x: expose information of time, space and organization of a organization thread 
+        -a: modify the permissions of the organization system
+        -c: modify the credentials of the organization system
+        -g: exposes the log and records of the organization system
+        -r: programm autoremove
     Parameters:
-        - 
-        - 
-        - 
+        -f: modify the permissions of a specific file or entity 
+        -e: modify the credentials of a specific entity 
+        -i: verify the diff hash of a organization diff
+        -h: expose the log and record
 ----------
     xfsdiff  [parameters] [options]
         Creates a backup of the file system, if already exist creates a diff file.
 
     Options:
-        -b: creates backup file of fylesystem
+        -b: creates backup file of fyle system
         -d: creates diff file between back up files
         -s: creates a diff of a specific file
-        -z: creates diff file between a specific file and a beck up file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
         -e: exhaustive backup file or diff
         -m: medium backup file or diff
@@ -47,49 +60,75 @@ A binary toolkit for cybersecurity operations. Includes partially open developme
         Control options for file management.
 
     Options:
-        -x: expose information of time, space and organization of a thread file
-        -:
-        -:
-        -:
+        -x: expose information of time, space and organization of a file thread 
+        -a: expose the organization system associated to a specific file
+        -c: expose the process system associated to a specific file
+        -n: expose the network system associated to a specific file
+        -g: expose the file metadata
+        -r: programm autoremove
     Parameters:
-        -:
-        -:
-        -:
-        -:
+        -f: verify the diff hash of a filesystem diff
+        -h: expose the log and record
 ----------
     xprocdiff  [parameters] [options]
         Creates a backup of the process system, if already exist creates a diff file.
 
     Options:
-        -
+        -b: creates backup file of process system
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
-        -
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path
 
     xproccntrl  [parameters] [options]
         Control options for process management.
 
     Options:
-        -x: expose information of time, space and organization of a thread process
+        -x: expose information of time, space and organization of a process and services thread
+        -a: expose the process and services threads and modules
+        -c: expose the libraries associated with the threads and their export modules
+        -g: verify the network system associated to a specific process and service
+        -r: programm autoremove
     Parameters:
-        -
+        -f: verify the diff hash of a process diff
+        -e: expose the log and record
 ----------
     xnetdiff  [parameters] [options]
         Creates a backup of the network system, if already exist creates a diff file.
 
     Options:
         -x: expose information of time, space and organization of a thread network socket
-
+        -b: creates backup file of process system
+        -d: creates diff file between back up files
+        -s: creates a diff of a specific file
+        -z: creates diff file between a specific file and a back up file
+        -r: programm autoremove
     Parameters:
-        -
+        -e: exhaustive backup file or diff
+        -m: medium backup file or diff
+        -i: minimun back up file or diff
+        -n:[.bkp,.bkp]: list the backup files or path
 
     xnetcntrl  [parameters] [options]
         Control options for network management. Included firewall, proxy and gateway configuration, private network and network architecture security management. For defensive and offensive exploits contact Psideralis for commercial version.
 
-    Options:
-        - 
-    
+     Options:
+        -x: expose information of time, space and organization of a network thread
+        -a: expose the network ports and socket information
+        -g: expose the id and geolocalization of a incoming
+        -i: expose the purpose of a incoming
+        -c: expose the processes associated with the network and their ports and sockets
+        -g: verify the credentials system associated to a specific network
+        -r: programm autoremove
     Parameters:
-        -
+        -f: verify the diff hash of a network system diff
+        -e: expose the network log and records
+        
 ----------
     binops [parameters] [options]
 
@@ -127,39 +166,72 @@ A binary toolkit for cybersecurity operations. Includes partially open developme
         -k: create master key
         -l: create cipher vault
         -h: decypher vault vault
+        -r: programm autoremove
+
 ----------
     binyect [parameters] [options]
 
     sharpbinyect [parameters] [options]
 
     Options:
-        -
+        -i: inyect/deyect load to a binary
+        -x: inyect/deyect load to a executive
+        -f: inyect/deyect load to a file
+        -p: inyect/deyect load to a process
+        -n: inyect/deyect load to a network
     Parameters:
-        -
+        -r: programm autoremove
 ----------
     bintrace [parameters] [options]
 
     sharpbintrace [parameters] [options]
 
     Options:
-        -
+        -i: trace the process data
+        -s: trace the process stack
+        -o: trace the process organization
+        -f: trace the process file
+        -v: trace the process services
+        -m: trace the process modules
+        -n: trace the process network
     Parameters:
-        - 
+        -d: modify in runtime
+        -e: cypher interprocess communication
+        -x: cypher network communication
+        -r: programm autoremove
+
 ----------
     xnetcrypto [parameters] [options]
 
-    sharpbintrace [parameters] [options]
+    python pyxnetcrypto [parameters] [options]
+
+    sharpxnetcrypto [parameters] [options]
+    
+    jsxnetcrypto [parameters] [options]
 
     Options:
-        -
+        -c: cyphet/decypher the file
+        -p: create or verify public key
+        -v: create of verify private key
+        -g: create or verify signature
+        -c: create of verify certificate transaction
+        -n: cypher the network output
+        -d: decypher try all
+            - di:   decypher try inmutable
+            - dm:   decypher try mutable
+            - dt:   decypher try transmutable
     Parameters:
-        - 
+        -r: programm autoremove
 
     xnetcompress [parameters] [options]
 
-    sharpbintrace [parameters] [options]
+    python pyxnetcompress  [parameters] [options]
+
+    sharpxnetcompres [parameters] [options]
+
+    jsxnetcompress [parameters] [options]
 
     Options:
-        -
+        -   
     Parameters:
         -

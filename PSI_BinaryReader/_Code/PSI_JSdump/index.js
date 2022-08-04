@@ -9,25 +9,6 @@ Description:  A dump program with basic
 /* *********************************************
 INCLUDES:
     fs
-FUNCTIONS:
-    audio()
-    morse()
-    image()
-    video()
-    curve()
-    polynomial()
-    polyhedra()
-    wave()
-    condensate()
-    file()
-    bin()
-    oct()
-    hex()
-    ascii()
-    utf8()
-    utf16()
-    utf32()
-    custom()
 MANUAL:
 
     jsdump  [parameters] [options] [f
