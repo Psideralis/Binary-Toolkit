@@ -10,7 +10,7 @@ VISITED THE WIKI FOR MORE INFORMATION ABOUT INSTALLATION, USE AND DERIVATES. A Z
 ## Version
 00.00.001.001
 ## Description:
-Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) and cross-architecture (x84, amd64, ARM, MIPS, POWER, RISC-V) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
+Binary Toolkit bases for Supressor a cross-platform (Windows,Linux,Android,MacOs,iOS) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
 
 ### Binary Reader
 Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file.
