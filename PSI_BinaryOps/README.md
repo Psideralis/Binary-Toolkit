@@ -8,7 +8,8 @@ Public - Progress: 15%
 ## Version
 00.00.001.000
 ## Description:
-A binary toolkit for cybersecurity operations. Includes partially open development headers and object libraries, as well as a command with basic functions: xorgdiff, xorgcntrl, xfsdiff, xfscntrl, xprocdiff, xproccntrl, xnetdiff, xnetcntrl, binop. binyect, bintrace.
+A binary toolkit for cybersecurity operations. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code, as well as a command with basic functions: xorgdiff, xorgcntrl, xfsdiff, xfscntrl, xprocdiff, xproccntrl, xnetdiff, xnetcntrl, binop, binyect, bintrace.
+
 ## Manual:    
 ----------
     xorgdiff  [parameters] [options]

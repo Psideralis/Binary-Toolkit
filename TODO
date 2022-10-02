@@ -3,6 +3,30 @@ Project: Binary Toolkit
 License: GNU GPL 3.0
 
 TODO:
+    Binary Reader----------------------------------------------------------------------
+        CDump                                                       0%
+        Bindumpp                                                    0%
+        SharpDump                                                   0%
+        JSDump                                                      0%
+        PyDump                                                      0%
+    Binary Ops (C++)-------------------------------------------------------------------
+        xorgdiff                                                    0%
+        xorgcntrl                                                   0%
+        xfsdiff                                                     0%
+        xfscntrl                                                    0%
+        xprocdiff                                                   0%
+        xproccntrl                                                  0%
+        xnetdiff                                                    0%
+        xnetcntrl                                                   0%
+        binop                                                       0%
+        binyect                                                     0%
+        bintrace                                                    0%
+        xnetcrypto,jsxnetcrypto,pyxnetcrypto                        0%
+        xnetcompress,jsxnetcompress,pyxnetcompress                  0%
+        sharpcryptocompress                                         0%
+    Binary Pit (C++)-------------------------------------------------------------------
+        BinaryPit                                                   0%
+        BinPitClient                                                0%
 
 Entry 001: 18/05/22, 002 17/6/22 (Complete skeleton), 001.001  (Complete specification)
 Finish Daily :
@@ -22,7 +46,7 @@ Finish Mayor :
 *****************************************************************************************************************
 
 
-                                        STARHOUND-HEX MONITORIKS
+                                        HEX MONITORIKS
 
 
 *****************************************************************************************************************

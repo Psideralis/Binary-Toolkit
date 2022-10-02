@@ -3,24 +3,24 @@ ALL: build
 
 build:
 ifeq ($(platform),LINUX)
-	g++ -shared 
+	g++
 else ifeq ($(platform),WINDOWS)
-	cl /c 
-	link /dll
+	cl
+	link
 else ifeq ($(platform),MAC)
-	g++ -shared 
+	clang++
 else
 	echo "NO PLATFORM."	
 endif
 
 static:
 ifeq ($(platform),LINUX)
-	ar rvs 
+	ar
 else ifeq ($(platform),WINDOWS)
-	cl /c 
-	link /dll 
+	cl
+	link
 else ifeq ($(platform),MAC)
-	clang
+	clang++
 else
 	echo "NO PLATFORM."	
 endif
