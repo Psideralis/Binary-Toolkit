@@ -5,12 +5,11 @@ Psideralis
 Psideralis Commune Public License
 ## Status:
 UNFINISHED UNRELEASED
-Public - Progress: 30%
-VISITED THE WIKI FOR MORE INFORMATION ABOUT INSTALLATION, USE AND DERIVATES. A ZIP RELEASE IS DATED FOR THE END OF 2023.
-
+Public - Progress: 45%
 ## Version
 00.00.001.001
 ## Description:
+VISITED THE WIKI FOR MORE INFORMATION ABOUT INSTALLATION, USE AND DERIVATES. A ZIP RELEASE IS DATED FOR THE END OF 2023.
 Binary Toolkit bases for HexMonitoriks a cross-platform (Windows,Linux,Android,MacOs,iOS) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
 
 ### Binary Reader
@@ -24,12 +23,6 @@ Cryptographic and compression network server for binary ops, bases for XenoEngin
 
 ### Binary Pit
 A CLI (command line interface) monitor tool with binary reader and operations capabilities for antimalware security cluster conglomerated distributed heterogeneous network agency administration.
-
-## Communications
-
-    - Psideralis Artefactories Communication Protocols = Psideralis Crypt Communication Protocols + Data & Control Artefactories: IOC
-    - Psideralis Message Passage Interface: IPC
-    - Psideralis Network Communciation Protocols: Network Communication
 
 ## HexMonitoriks
 
