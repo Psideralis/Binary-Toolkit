@@ -8,8 +8,8 @@ UNFINISHED UNRELEASED
 Public - Progress: 45%
 ## Version
 00.00.001.001
-## Description:
 VISITED THE WIKI FOR MORE INFORMATION ABOUT INSTALLATION, USE AND DERIVATES. A ZIP RELEASE IS DATED FOR THE END OF 2023.
+## Description:
 Binary Toolkit bases for HexMonitoriks a cross-platform (Windows,Linux,Android,MacOs,iOS) control monitor for a antimalware security cluster conglomerated distributed heterogeneous network agency.
 
 ### Binary Reader
