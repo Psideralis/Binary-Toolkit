@@ -6,9 +6,6 @@ TODO:
     Binary Reader----------------------------------------------------------------------
         CDump                                                       0%
         Bindumpp                                                    0%
-        SharpDump                                                   0%
-        JSDump                                                      0%
-        PyDump                                                      0%
     Binary Ops (C++)-------------------------------------------------------------------
         xorgdiff                                                    0%
         xorgcntrl                                                   0%
@@ -16,14 +13,15 @@ TODO:
         xfscntrl                                                    0%
         xprocdiff                                                   0%
         xproccntrl                                                  0%
+        xmoddiff                                                    0%
+        xmodcntrl                                                   0%
         xnetdiff                                                    0%
         xnetcntrl                                                   0%
         binop                                                       0%
         binyect                                                     0%
         bintrace                                                    0%
-        xnetcrypto,jsxnetcrypto,pyxnetcrypto                        0%
-        xnetcompress,jsxnetcompress,pyxnetcompress                  0%
-        sharpcryptocompress                                         0%
+        xnetcrypto                                                  0%
+        xnetcompress                                                0%
     Binary Pit (C++)-------------------------------------------------------------------
         BinaryPit                                                   0%
         BinPitClient                                                0%

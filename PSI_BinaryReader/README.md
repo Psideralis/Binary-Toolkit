@@ -15,12 +15,6 @@ Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32
 
     bindump++ [parameters] [options] [file]
 
-    python pydump.py [parameters] [options] [file]
-
-    sharpdump  [parameters] [options] [file]
-
-    jsdump  [parameters] [options] [file]
-
     Options:
         -audio: output an audio representation of the binary.
         -morse: output an morse code representation of the binary.

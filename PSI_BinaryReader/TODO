@@ -9,13 +9,14 @@ Entry 001: 14/02/2021
     Pendant:
         - Cdump     00.00.001.001
         - Bindumpp  00.00.001.001
-        - Pydump    00.00.001.001
         - Batch: (un)installation: Linux, MacOS, Windows    √
         - make: (un)installation: Linux, MacOS, Windows     √
         - CMAKE: compilation                                √
         - Parameter verification                            PENDANT
         - Parameter adding -b -o -h -a -u -out:[outputname]
-
+        - audio, morse:                                 AudioPort
+        - image, video:                                 CImg, OpenCV
+        - curve, polgrad, plygrad, wave, condensate:    PSI_GraphicsToolkit
 Minor:
     Pendant:
 
