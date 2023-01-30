@@ -16,17 +16,17 @@ TODO:
 Transport Layer: SECRECY MANAGEMENT
     - Socket Open Channel:                  PSI_CHN_XOPN
     - Socket Closed Channel:                PSI_CHN_XCLS
-    - Socket Procloisters Channel:          PSI_CHN_XKPT
+    - Socket Constricted Channel:           PSI_CHN_XKPT
 
 Session/Presentation: IDENTITY MANAGEMENT
     - Session Open Package:                 PSI_PKG_XOPN
-    - Session Closed Package:               PSI_PKG_XCLS
-    - Session Procloisters Package:         PSI_PKG_XKPT
+    - Session Constricted Package:          PSI_PKG_XCLS
+    - Session Constricted Package:          PSI_PKG_XKPT
 
 Application: DATA MANAGEMENT
     - Application Open Data:                PSI_DATA_XOPN
     - Application Closed Data:              PSI_DATA_XCLS
-    - Application Procloisters Data:        PSI_DATA_XKPT
+    - Application Constricted Data:         PSI_DATA_XKPT
 
 ----------------------------------------------------------------------------------------------------------------
                                 |                                       |                                       |

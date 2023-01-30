@@ -4,8 +4,8 @@ License: GNU GPL 3.0
 
 TODO:
     Binary Reader----------------------------------------------------------------------
-        CDump                                                       0%
-        Bindumpp                                                    0%
+        cdump                                                       0%
+        bindumpp                                                    0%
     Binary Ops (C++)-------------------------------------------------------------------
         xorgdiff                                                    0%
         xorgcntrl                                                   0%
@@ -23,8 +23,8 @@ TODO:
         xnetcrypto                                                  0%
         xnetcompress                                                0%
     Binary Pit (C++)-------------------------------------------------------------------
-        BinaryPit                                                   0%
-        BinPitClient                                                0%
+        binarypit                                                   0%
+        binpit                                                      0%
 
 Entry 001: 18/05/22, 002 17/6/22 (Complete skeleton), 001.001  (Complete specification)
 Finish Daily :
