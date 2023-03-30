@@ -1,0 +1,19 @@
+*********************************************
+   Date, Time, Memory, Processing, Storage
+
+*********************************************
+Organization:
+    User, Group
+    Policies
+Process:
+    Process
+    Threads
+    Services
+Files:
+    Directories
+    Files
+Network:
+    Listening
+    Receiving
+    Incoming
+*********************************************
