@@ -1,4 +1,0 @@
-
-ALL: BUILD
-
-BUILD:
