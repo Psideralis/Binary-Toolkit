@@ -7,7 +7,7 @@ File name:  RedirectedPipes.cpp
 
 #include "PSI_RedirectedPipes.hpp"
 
-EXPORTAPI void  PSI_Winpipe(string command, string out)
+EXPORTAPI void PSI_Winpipe(string command, string out)
 {
     HANDLE g_hChildStd_OUT_Rd = NULL;
     HANDLE g_hChildStd_OUT_Wr = NULL;

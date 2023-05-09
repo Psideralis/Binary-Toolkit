@@ -6,35 +6,7 @@ Description:
 
 ********************************************* */ 
 
-#include <iostream>
-#define WINDOWS
-
-#ifdef WINDOWS
-
-#elif LINUX
-
-#elif MACOS
-
-#endif
-
-int main(int argc, char const *argv[])
-{
-    for (size_t i = 0; i < argc; i++)
-    {   
-        if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else if (argv[i]=="-"){
-        }else{
-        }
-    }
+int main(int argc, char const *argv[]){
+    
     return 0;
 }

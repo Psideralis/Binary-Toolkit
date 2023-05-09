@@ -1,12 +1,14 @@
 /* *********************************************
 Author: Psideralis
 License: GNU GPL 3.0
-File name: xorgcntrl.cpp
-Description:
+File name:  mainWin.cpp
 
 ********************************************* */ 
 
-int main(int argc, char const *argv[]){
-    
+#include "PSI_ProgrammingUtilities.hpp"
+
+int main(int argc, char const *argv[])
+{
+    /* code */
     return 0;
 }

@@ -1,8 +1,14 @@
 /* *********************************************
 Author: Psideralis
 License: GNU GPL 3.0
-File name:  ProgrammingUtilities.hpp
+File name:  main.cpp
 
 ********************************************* */ 
 
-#include "PSI_RedirectedPipes.hpp"
+#include "PSI_ProgrammingUtilities.hpp"
+
+int main(int argc, char const *argv[])
+{
+    /* code */
+    return 0;
+}
