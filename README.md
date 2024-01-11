@@ -18,7 +18,7 @@ Binary Toolkit bases for HexMonitoriks a intercrossplatform (Windows,Linux,Andro
     Psideralis++ Standard Library 
 
 ### Binary Reader
-Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file. Includes dissasembler, decompiler and deinterpreter (Pendant).
+Reads any file and ouput to file its binary (octal,hex,ascii,utf-8,utf-16,utf-32,cct: custom code table) dump. Tries to output the format and the metadata of the file. Includes dissasembler, decompiler and deinterpreter (Pendant). Also includes memory profiler and buffer recovery tools.
 
 ### Binary Ops
 A binary toolkit for cybersecurity operations. Uses Psideralis Math Utitilities and licensed commercial privative Psideralis code, as well as a command with basic functions: xorgdiff, xorgcntrl, xfsdiff, xfscntrl, xprocdiff, xproccntrl, xmoddiff, xmodcntrl xnetdiff, xnetcntrl, binop, binyect, bintrace.
